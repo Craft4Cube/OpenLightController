@@ -1,6 +1,9 @@
 # OpenLightController
 OpenLightController is an I2C controlled, RGB-Strip controller. It does RGB fades and gradients without extra load on the I2C master. 
 
+## Note
+OpenLightController reqiures the FastLED library. See http://fastled.io/
+
 # Protocol
 OpenLightController uses the I2C standard for communications. By default it listens on address 0x10.
 
